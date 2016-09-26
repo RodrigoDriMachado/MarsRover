@@ -56,7 +56,6 @@ public class Rover {
 	public String getPosicao(){
 		return this.pos_x + " " + this.pos_y + " " + this.pos_rover;
 	}
-
 	
 	private void moveRover(){
 		if(this.pos_rover.equals("N") ){

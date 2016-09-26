@@ -22,7 +22,5 @@ public class Planalto {
 	public void setAltura(int altura) {
 		this.altura = altura;
 	}
-	
-	
 
 }

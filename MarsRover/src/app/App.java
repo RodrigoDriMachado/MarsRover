@@ -15,10 +15,7 @@ public class App {
 	private static Rover rover2;
 	private static Planalto planalto;
 
-	public static void main(String[] args) throws IOException {
-
-		
-		
+	public static void main(String[] args) throws IOException {		
 	
 		Scanner ler = new Scanner(System.in);
 		Path path = Paths.get("Imput");
@@ -27,7 +24,6 @@ public class App {
 			String str, pos_rover;
 			int pos_x, pos_y, altura_planalto, largura_planalto;
 			sc.useDelimiter("[./;n]"); // separadores: ; e nova linha
-			// int i =0;
 			String[] aux;
 			while (sc.hasNext()) {
 				

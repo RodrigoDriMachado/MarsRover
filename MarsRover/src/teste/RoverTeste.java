@@ -14,14 +14,11 @@ public class RoverTeste {
 	Rover rover2;
 	Planalto planalto;
 	
-
 	@Before
 	public void setUp() {
 		planalto = new Planalto(5, 5);
 		rover1 = new Rover(1, 2, "N", planalto);
 		rover2 = new Rover(3,3,"E", planalto);
-	//	rover1.setPosicao(1, 2, "N");
-	//	rover2.setPosicao(3,3,"E");
 		
 	}
 	
