@@ -35,8 +35,6 @@ public class Rover {
 		
 	}
 	
-	
-	
 	public void processaComando(String comando){
 		Character aux;
 		for(int i =0; i < comando.length();i++){
